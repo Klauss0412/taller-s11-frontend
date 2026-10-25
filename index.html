@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klauss Joseph Saavedra Rayo | NERV Unit-02 Terminal</title>
+    <style>
+        body {
+            background-color: #0b0b0c;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 30px 15px;
+            display: flex;
+            justify-content: center;
+        }
+        .nerv-terminal {
+            max-width: 780px;
+            width: 100%;
+            background-color: #141416;
+            border: 2px solid #d90429;
+            border-top: 12px solid #ff5400;
+            border-radius: 6px;
+            padding: 32px;
+            box-shadow: 0 0 30px rgba(217, 4, 41, 0.4);
+        }
+        .hud-header {
+            color: #ff5400;
+            font-family: monospace;
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+        h1 {
+            color: #d90429;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #ff5400;
+            padding-bottom: 12px;
+            margin-top: 0;
+            font-size: 1.9rem;
+        }
+        h2, h3 {
+            color: #ff5400;
+            margin-top: 28px;
+            border-left: 5px solid #d90429;
+            padding-left: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        p {
+            line-height: 1.7;
+            color: #e0e0e0;
+            background-color: #1c1c1f;
+            padding: 16px;
+            border-radius: 4px;
+            border-left: 3px solid #ff5400;
+        }
+        ul {
+            background-color: #1c1c1f;
+            padding: 18px 20px 18px 40px;
+            border-radius: 4px;
+            border: 1px solid #2b2b30;
+        }
+        li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 25px 0;
+        }
+        .card-img {
+            background-color: #1c1c1f;
+            border: 2px solid #d90429;
+            border-radius: 6px;
+            padding: 10px;
+            width: 320px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(255, 84, 0, 0.25);
+        }
+        .card-img img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            border-radius: 4px;
+            border-bottom: 2px solid #ff5400;
+        }
+        .card-caption {
+            font-family: monospace;
+            color: #ff5400;
+            font-size: 0.85rem;
+            margin-top: 8px;
+        }
+        a {
+            color: #ff5400;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #d90429;
+            text-decoration: underline;
+        }
+        h6 {
+            text-align: center;
+            color: #888;
+            margin-top: 35px;
+            font-family: monospace;
+            letter-spacing: 1.5px;
+            border-top: 1px dashed #333;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nerv-terminal">
+        <div class="hud-header">// NERV HQ - EXPEDIENTE PERSONAL // SYNC RATIO: 98.4% [EVA-02 THEME]</div>
+
+        <!-- 1. Encabezado principal con su nombre -->
+        <h1>Klauss Joseph Saavedra Rayo</h1>
+
+        <!-- 2. Párrafo de presentación personal -->
+        <h2>Presentación Personal</h2>
+        <p>
+            ¡Hola! Mi nombre es <strong>Klauss Joseph Saavedra Rayo</strong>, tengo 22 años y nací el <strong>21 de marzo de 2003</strong>. Me apasiona el mundo del hardware, la tecnología y el desarrollo de sistemas, manteniendo siempre un enfoque práctico y preciso en cada proyecto técnico que realizo. Esta página personal está diseñada con los colores e interfaz táctica de <em>Asuka Langley Soryu (Unidad Evangelion-02)</em> y los sistemas de NERV.
+        </p>
+
+        <!-- 3. Lista de habilidades -->
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+            <li><strong>Idioma Inglés (Nivel C1):</strong> Dominio avanzado en lectura técnica, escritura y conversación fluida.</li>
+            <li><strong>Armado y mantenimiento de computadoras profesional:</strong> Ensamblaje de PCs de alto rendimiento, gestión de cableado, optimización térmica y limpieza profunda.</li>
+            <li><strong>Reparaciones básicas:</strong> Diagnóstico de fallas de hardware, reemplazo de componentes y solución de problemas de sistema.</li>
+        </ul>
+
+        <!-- 3. Lista de intereses -->
+        <h2>Intereses Personales</h2>
+        <ul>
+            <li><strong>Motos deportivas:</strong> Especialmente la <strong>Honda CBR600RR</strong> (tanto en su clásico color rojito como en la icónica edición <em>Repsol</em>).</li>
+            <li><strong>Manga y Manhwa:</strong> Lectura constante de obras japonesas y coreanas, destacando clásicos como <em>Neon Genesis Evangelion</em> (Asuka Langley).</li>
+        </ul>
+
+<!-- 4. Galería de imágenes (Archivos locales en tu misma carpeta) -->
+        <h3>Galería Visual: CBR600RR & Unidad EVA-02</h3>
+        <div class="gallery">
+            <div class="card-img">
+                <img src="honda.jpg" alt="Honda CBR600RR en color rojo">
+                <div class="card-caption">[UNIDAD TERRESTRE: HONDA CBR600RR ROJA]</div>
+            </div>
+            <div class="card-img">
+                <img src="asuka.jpg" alt="Asuka Langley Soryu - Evangelion">
+                <div class="card-caption">[PILOTO EVA-02: ASUKA LANGLEY SORYU]</div>
+            </div>
+        </div>
+
+        <!-- 4. Enlaces a redes o sitios favoritos -->
+        <h3>Enlaces a Redes y Sitios Favoritos</h3>
+        <ul>
+            <li><a href="https://github.com/Klauss0412" target="_blank">Mi Perfil Oficial de GitHub (Klauss0412)</a></li>
+            <li><a href="https://powersports.honda.com/motorcycle/supersport/cbr600rr" target="_blank">Sitio Oficial - Honda CBR600RR Supersport</a></li>
+            <li><a href="https://myanimelist.net/manga" target="_blank">MyAnimeList - Catálogo de Manga y Manhwa</a></li>
+            <li><a href="https://evangelion.fandom.com/es/wiki/Asuka_Langley_Soryu" target="_blank">Archivo NERV: Wiki de Asuka Langley Soryu</a></li>
+        </ul>
+
+        <h6>SISTEMA MAGI // DISEÑO DE SISTEMAS EN INTERNET - TALLER PRÁCTICO S11</h6>
+    </div>
+
+</body>
+</html>
